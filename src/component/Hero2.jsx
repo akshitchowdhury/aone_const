@@ -6,6 +6,7 @@ import i3 from "../assets/images/100x10003.jpg";
 const Hero2 = () => {
   return (
     <>
+    <div className='w-[300px] md:w-[80%] md:mx-32  h-[1px] bg-gray-300'></div>
     <section className="py-8 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
@@ -72,6 +73,7 @@ const Hero2 = () => {
         </div>
       </div>
     </section>
+    <div className='w-[300px] md:w-[80%] md:mx-32  h-[1px] bg-gray-300'></div>
     </>
   );
 };
