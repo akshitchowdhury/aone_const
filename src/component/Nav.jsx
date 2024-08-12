@@ -21,48 +21,48 @@ const Nav = () => {
         <div className="hidden md:flex space-x-24">
   <Link 
     to="/" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     HOME
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
   <Link 
     to="/about" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     ABOUT
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
   
   <Link 
     to="/services" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     SERVICES
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 
   
   {/* <Link 
     to="/gallery" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     GALLERY
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link> */}
   {/* <Link 
     to="/career" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     CAREERS
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link> */}
   <Link 
     to="/contact" 
-    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
   >
     CONTACT US
-    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
 </div>
 
