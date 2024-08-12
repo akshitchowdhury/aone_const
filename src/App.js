@@ -13,6 +13,7 @@ import Contact from './Contact';
 import About from './component/About';
 import Hero from './component/Hero';
 import Footer from './component/Footer';
+import Inquiry from './component/Inquiry';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -21,6 +22,7 @@ function App() {
         <Nav/>
         <Routes>
       <Route path="/" element={<Hero />} />
+      <Route path="/inquiry" element={<Inquiry/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/services" element={<Services/>} />
       
