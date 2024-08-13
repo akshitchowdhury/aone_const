@@ -24,6 +24,10 @@ const Footer = () => {
     window.scrollTo({ behavior: 'smooth', top:"0" });
   };
   return (
+    <>
+    <div className="h-[1px] w-full bg-white">
+
+    </div>
     <div className="footer bg-zinc-950 py-8">
       {/* Newslatter and Columns */}
       <div className="container mx-auto px-4">
@@ -43,11 +47,7 @@ const Footer = () => {
             
         </div>
                 <p>
-                  Established in 1992, Chethan Constructions boasts over four decades
-                  of expertise in delivering unparalleled travel experiences and
-                  exceptional customer service. As pioneers in the travel
-                  sector, we continuously evolve to meet the diverse needs of
-                  our clients.
+                a-one’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
                 </p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
@@ -55,28 +55,28 @@ const Footer = () => {
                       <FontAwesomeIcon
                         icon={faFacebook}
                         className="text-white text-3xl
-                    hover:text-amber-400 transition ease-in-out duration-300"
+                    hover:text-red-500 transition ease-in-out duration-300"
                       />
                     </li>
                     <li>
                       <FontAwesomeIcon
                         icon={faInstagram}
                         className="text-white text-3xl
-                    hover:text-amber-400 transition ease-in-out duration-300"
+                    hover:text-red-500 transition ease-in-out duration-300"
                       />
                     </li>
                     <li>
                       <FontAwesomeIcon
                         icon={faTwitter}
                         className="text-white text-3xl
-                    hover:text-amber-400 transition ease-in-out duration-300"
+                    hover:text-red-500 transition ease-in-out duration-300"
                       />
                     </li>
                     <li>
                       <FontAwesomeIcon
                         icon={faWhatsapp}
                         className="text-white text-3xl
-                    hover:text-amber-400 transition ease-in-out duration-300"
+                    hover:text-red-500 transition ease-in-out duration-300"
                       />
                     </li>
                   </ul>
@@ -87,14 +87,14 @@ const Footer = () => {
                     <li className="flex items-center -my-4 ">
                       <FontAwesomeIcon
                         icon={faEnvelopeOpen}
-                        className="text-amber-400 
+                        className="text-red-500 
                    text-xl p-4"
                       />
                       <a
                         href="mailto:admissions@hillsideacademy.in"
                         className="text-white"
                       >
-                        chethancontructions.com
+                        enquiry@a-onebuilders.com
                       </a>
                     </li>
                   </ul>
@@ -109,35 +109,29 @@ const Footer = () => {
                 <ul className="text-left px-20">
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
                     </Link>
                   </li>
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/about"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
                     </Link>
                   </li>
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/services"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Services
                     </Link>
                   </li>
-                  <li className="relative">
-                    <Link onClick={ handleClick} to={"/career"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
-                    >
-                      Careers
-                    </Link>
-                  </li>
+                  
                   {/* <li className="relative">
                     <Link onClick={ handleClick} to={"/gallery"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Gallery
                     </Link>
@@ -148,7 +142,7 @@ const Footer = () => {
                   <li className="relative ">
                     <Link onClick={ handleClick} to={"/contact"}
                       className="block mb-2 after:content-[''] after:absolute
-                       after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                       after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Contact Us
                     </Link>
@@ -162,23 +156,23 @@ const Footer = () => {
                 <ul className="text-left px-12">
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/excavation"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Excavation Services
+                      Residential House architecture
                     </Link>
                   </li>
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/demolition"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Demolition/Dismantling Services
+                      Commercial House architecture
                     </Link>
                   </li>
                   <li className="relative">
                     <Link onClick={ handleClick} to={"/siteprep"}
-                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                      className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-red-500 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
-                      Site Preparations
+                      Interior House architecture
                     </Link>
                   </li>
                  
@@ -196,7 +190,7 @@ const Footer = () => {
                   <li className="flex items-start mb-4">
                     <FontAwesomeIcon
                       icon={faMapMarkerAlt}
-                      className="text-amber-400 text-xl px-4"
+                      className="text-red-500 text-xl px-4"
                     />{" "}
                     53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093
                   </li>
@@ -207,15 +201,15 @@ const Footer = () => {
                   <li className="flex items-start mb-4">
                     <FontAwesomeIcon
                       icon={faMobileAlt}
-                      className="text-amber-400 text-xl px-4"
+                      className="text-red-500 text-xl px-4"
                     />{" "}
-                    +91-98459 56633
+                    +91-9164023687
                   </li>
                   {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4">
                     <FontAwesomeIcon
                       icon={faFileAlt}
-                      className="text-amber-400 text-xl px-4 "
+                      className="text-red-500 text-xl px-4 "
                     />{" "}
                     <a
                       href="brochure/Hillside-Academy-Brochure.pdf"
@@ -229,7 +223,7 @@ const Footer = () => {
                   <li className="flex items-start">
                     <FontAwesomeIcon
                       icon={faFileArchive}
-                      className="text-amber-400 text-xl px-4"
+                      className="text-red-500 text-xl px-4"
                     />{" "}
                     <a
                       href="privacy-policy.html"
@@ -254,6 +248,7 @@ const Footer = () => {
       </div> */}
       {/* Sub Footer */}
     </div>
+    </>
   );
 };
 
