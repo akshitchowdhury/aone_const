@@ -166,10 +166,23 @@ const Inquiry = () => {
                   <label className="mb-2 font-medium text-zinc-950">Your Email*</label>
                   <input type="email" name="email" className="border border-gray-300 p-2 rounded" />
                 </div>
-                <div className="flex flex-col">
-                  <label className="mb-2 font-medium text-zinc-950">Subject*</label>
-                  <input type="text" name="subject" className="border border-gray-300 p-2 rounded" />
-                </div>
+                <div className="relative flex flex-col">
+  <label className="mb-2 font-medium text-zinc-950">Subject*</label>
+  <button className="border border-gray-300 p-2 rounded flex items-center justify-between w-full">
+    <span>Select Subject</span>
+    <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  <div className="absolute right-0 mt-2 w-full bg-white border border-gray-300 rounded shadow-lg hidden">
+    <ul className="py-1">
+      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Residential</li>
+      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Commercial</li>
+      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Interiors</li>
+    </ul>
+  </div>
+</div>
+
                 <div className="flex flex-col">
                   <label className="mb-2 font-medium text-zinc-950">Message*</label>
                   <textarea name="message" className="border border-gray-300 p-2 rounded" rows="6"></textarea>
