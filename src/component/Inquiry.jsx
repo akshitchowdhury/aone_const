@@ -112,15 +112,15 @@ const Inquiry = () => {
               <div>
                 <div className="flex items-center mb-2">
                   <FaPhoneAlt className="text-gray-600 mr-2" />
-                  <span>8147929991</span>
+                  <span>+91-81479 29991</span>
                 </div>
                 <div className="flex items-center mb-2">
                   <FaPhoneAlt className="text-gray-600 mr-2" />
-                  <span>7349059991</span>
+                  <span>+91-73490 59991</span>
                 </div>
                 <div className="flex items-center mb-2">
                   <FaPhoneAlt className="text-gray-600 mr-2" />
-                  <span>9164023687</span>
+                  <span>+91-91640 23687</span>
                 </div>
                 <div className="flex items-center">
                   <FaEnvelope className="text-gray-600 mr-2" />

@@ -219,7 +219,7 @@ const Footer = () => {
                       Download Brochure
                     </a>
                   </li> */}
-                  <hr className="border-gray-700 mb-4" />
+                  {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start">
                     <FontAwesomeIcon
                       icon={faFileArchive}
@@ -231,7 +231,7 @@ const Footer = () => {
                     >
                       Privacy Policy
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
