@@ -6,7 +6,8 @@ import h2 from "../assets/images/web2.jpg"
 import h3 from "../assets/images/web3.jpg";
 import Hero2 from './Hero2';
 import Inquiry from './Inquiry';
-
+import Services from './Services'
+import About from './About';
 
 const Hero = () => {
   return (
@@ -41,8 +42,9 @@ const Hero = () => {
     </div>
     
     <Hero2/>
-    
+    <About/>
     <Inquiry/>
+    <Services/>
     </>
 
   );
