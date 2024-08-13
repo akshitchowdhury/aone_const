@@ -79,7 +79,7 @@ const Nav = () => {
           <Link onClick={ handleClick} to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
           <Link onClick={ handleClick} to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
           <Link onClick={ handleClick} to="/services" className="block text-white hover:text-gray-300 p-2">Services</Link>
-          <Link onClick={ handleClick} to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
+         
           <Link onClick={ handleClick} to="/contact" className="block text-white hover:text-gray-300 p-2">Contact Us</Link>
         </div>
       )}
