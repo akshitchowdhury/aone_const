@@ -9,11 +9,10 @@ const Inquiry = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState('Select Service');
 
-  const images = [inq1, inq2, inq3, inq4];
+  const images = [inq1, inq2, inq3];
   const descriptions = [
     "Designing an affordable dream home involves making thoughtful choices to optimize costs without compromising on comfort and functionality.",
     "Construct your Dream Home with Tech Enabled Construction. Build your dream home and get assured quality, great prices and absolute transparency.",
-    "Beautify your Home with our design experts, to find the right balance between you and your space.",
     "Beautify your Home with our design experts, to find the right balance between you and your space."
   ];
 
@@ -28,7 +27,7 @@ const Inquiry = () => {
       <div className="flex flex-wrap -mx-4">
         <div className="w-full lg:w-2/3 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {['BASIC', 'BEST', 'PREMIUM', 'ULTIMATE'].map((title, index) => (
+            {['BASIC', 'BEST', 'PREMIUM'].map((title, index) => (
               <div key={index} className="bg-white rounded-none shadow-md overflow-hidden">
                 <img 
                   className="w-full h-48 object-cover" 

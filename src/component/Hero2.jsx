@@ -20,7 +20,7 @@ const Hero2 = () => {
                 alt="Design the Future Today"
               />
               <div className="p-6 flex flex-col flex-1">
-                <h6 className="text-lg font-semibold  uppercase mb-2">
+                <h6 className="text-lg font-bold  uppercase mb-2">
                   DESIGN THE FUTURE TODAY
                 </h6>
                 <p className="">
@@ -33,14 +33,14 @@ const Hero2 = () => {
           {/* Card 2 */}
           <div className="w-full lg:w-1/3 md:w-1/2 px-4 mb-8 lg:mb-0">
             <div className="bg-red-600 rounded-lg shadow-md overflow-hidden flex flex-col justify-center
-             items-center h-full p-6 hover:bg-zinc-950 text-gray-800 hover:text-white duration-300 transition ease-in-out">
+             items-center h-full p-6 hover:bg-zinc-950 text-white hover:text-white duration-300 transition ease-in-out">
               <img
                 className="w-24 h-24 mr-4 rounded-full object-cover"
                 src={i2}
                 alt="We Build Homes with a Personal Touch"
               />
               <div className="p-6 flex flex-col flex-1">
-                <h6 className="text-lg font-semibold 
+                <h6 className="text-lg font-bold 
                  mb-2">
                   WE BUILD HOMES WITH A PERSONAL TOUCH
                 </h6>
@@ -61,7 +61,7 @@ const Hero2 = () => {
                 alt="Dreams to Blueprints to Reality"
               />
               <div className="p-6 flex flex-col flex-1">
-                <h6 className="text-lg font-semibold mb-2">
+                <h6 className="text-lg font-bold mb-2">
                   DREAMS TO BLUEPRINTS TO REALITY
                 </h6>
                 <p className="">

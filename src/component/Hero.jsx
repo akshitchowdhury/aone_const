@@ -8,6 +8,9 @@ import Hero2 from './Hero2';
 import Inquiry from './Inquiry';
 import Services from './Services'
 import About from './About';
+import Premium from './Packages/Premium';
+import Basic from './Packages/Basic';
+import Best from './Packages/Best';
 
 const Hero = () => {
   return (
@@ -44,6 +47,9 @@ const Hero = () => {
     <Hero2/>
     <About/>
     <Inquiry/>
+    <Basic/>
+    <Best/>
+    <Premium/>
     <Services/>
     </>
 
