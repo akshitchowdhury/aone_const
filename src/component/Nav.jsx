@@ -33,7 +33,14 @@ const Nav = () => {
     ABOUT
     <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
   </Link>
-  
+  <Link 
+    to="/packages" 
+    className="text-zinc-950 font-medium relative hover:text-red-600 group"
+  >
+    PACKAGES
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+          
   <Link 
     to="/services" 
     className="text-zinc-950 font-medium relative hover:text-red-600 group"
@@ -78,6 +85,8 @@ const Nav = () => {
         <div className="md:hidden">
           <Link onClick={ handleClick} to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
           <Link onClick={ handleClick} to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
+          <Link onClick={ handleClick} to="/packages" className="block text-white hover:text-gray-300 p-2">Packages</Link>
+          
           <Link onClick={ handleClick} to="/services" className="block text-white hover:text-gray-300 p-2">Services</Link>
          
           <Link onClick={ handleClick} to="/contact" className="block text-white hover:text-gray-300 p-2">Contact Us</Link>

@@ -86,7 +86,7 @@ const Premium = () => {
         </h1>
 
         <div className="overflow-x-auto">
-          <table className="w-full border-collapse">
+          <table className=" border-collapse">
             <thead>
               <tr className="bg-red-500 text-white">
                 <th className="p-3 text-left">Category</th>
@@ -95,7 +95,7 @@ const Premium = () => {
             </thead>
             <tbody>
               {sections.map((section, index) => (
-                <tr key={index} className={index % 2 === 0 ?'bg-white text-black'  :'bg-zinc-950 text-white' }>
+                <tr key={index} className={index % 2 === 0 ?'bg-white text-black'  :'bg-gray-100 text-black' }>
                   <td className="p-3 border-t border-gray-300">
                     <div className="flex items-center">
                       <span className="text-red-500 mr-2">{section.icon}</span>
