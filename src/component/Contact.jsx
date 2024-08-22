@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import inq1 from "../assets/images/400X20001.jpg";
 import inq2 from "../assets/images/400X20002.jpg";
 import inq3 from "../assets/images/400X20003.jpg";
-import inq4 from "../assets/images/400X20004.jpg";
-
-import Premium from './Packages/Premium';
-import Basic from './Packages/Basic';
-import Best from './Packages/Best';
 import { Link } from 'react-router-dom';
-const Inquiry = () => {
+const Contact = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState('Select Service');
 
@@ -27,7 +23,6 @@ const Inquiry = () => {
   };
 
   return (
-<>
     <div className="container mx-auto p-4">
       <div className="flex flex-wrap -mx-4">
         <div className="w-full lg:w-2/3 px-4">
@@ -142,12 +137,7 @@ const Inquiry = () => {
         </div>
       </div>
     </div>
+  )
+}
 
-    <Basic/>
-    <Best/>
-    <Premium/>
-    </>
-  );
-};
-
-export default Inquiry;
+export default Contact
