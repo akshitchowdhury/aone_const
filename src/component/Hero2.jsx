@@ -19,7 +19,7 @@ const Hero2 = () => {
                 src={i1}
                 alt="Design the Future Today"
               />
-              <div className="p-6 flex flex-col flex-1">
+              <div className="p-6 flex flex-col flex-1 text-justify">
                 <h6 className="text-lg font-bold  uppercase mb-2">
                   DESIGN THE FUTURE TODAY
                 </h6>
@@ -39,7 +39,7 @@ const Hero2 = () => {
                 src={i2}
                 alt="We Build Homes with a Personal Touch"
               />
-              <div className="p-6 flex flex-col flex-1">
+              <div className="p-6 flex flex-col flex-1 text-center">
                 <h6 className="text-lg font-bold 
                  mb-2">
                   WE BUILD HOMES WITH A PERSONAL TOUCH
@@ -60,7 +60,7 @@ const Hero2 = () => {
                 src={i3}
                 alt="Dreams to Blueprints to Reality"
               />
-              <div className="p-6 flex flex-col flex-1">
+              <div className="p-6 text-left flex flex-col flex-1">
                 <h6 className="text-lg font-bold mb-2">
                   DREAMS TO BLUEPRINTS TO REALITY
                 </h6>
