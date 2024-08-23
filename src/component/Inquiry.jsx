@@ -143,9 +143,9 @@ const Inquiry = () => {
       </div>
     </div>
 
-    <Basic/>
+    {/* <Basic/>
     <Best/>
-    <Premium/>
+    <Premium/> */}
     </>
   );
 };

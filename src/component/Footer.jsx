@@ -18,7 +18,7 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/aoneLogo.png"
+import logo from "../assets/original/aoneLogo-removebg-preview.png"
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top:"0" });
