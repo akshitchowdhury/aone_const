@@ -4,7 +4,7 @@ import inq1 from "../assets/images/400X20001.jpg";
 import inq2 from "../assets/images/400X20002.jpg";
 import inq3 from "../assets/images/400X20003.jpg";
 import inq4 from "../assets/images/400X20004.jpg";
-
+import { motion } from 'framer-motion';
 import Premium from './Packages/Premium';
 import Basic from './Packages/Basic';
 import Best from './Packages/Best';
@@ -29,9 +29,15 @@ const Inquiry = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top:"0" });
   };
+  
+  const fadeIn = {
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0 },
+    transition: { duration: 0.6 }
+  };
   return (
 <>
-    <div className="container mx-auto p-4">
+    <motion.div  className="container mx-auto p-4" {...fadeIn}>
       <div className="flex flex-wrap -mx-4">
         <div className="w-full lg:w-2/3 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -144,7 +150,7 @@ const Inquiry = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div >
 
     {/* <Basic/>
     <Best/>

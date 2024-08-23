@@ -8,11 +8,18 @@ import Hero2 from './Hero2';
 import Inquiry from './Inquiry';
 import Services from './Services'
 import About from './About';
-
+import { motion } from 'framer-motion';
 const Hero = () => {
+  const fadeIn = {
+    initial: { opacity: 0, y: 20 },
+    animate: { opacity: 1, y: 0 },
+    transition: { duration: 0.6 }
+  };
   return (
     <>  
-     <div className="relative w-auto md:w-full h-[100px] md:h-[300px] lg:h-[400px] ">
+     <motion.div {...fadeIn}
+     
+      className="relative w-auto md:w-full h-[100px] md:h-[300px] lg:h-[400px] ">
       <Carousel
         autoPlay
         infiniteLoop
@@ -39,7 +46,7 @@ const Hero = () => {
           
         </div> */}
       </Carousel>
-    </div>
+    </motion.div>
     
     <Hero2/>
     <About/>

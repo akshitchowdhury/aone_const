@@ -7,7 +7,12 @@ import { HomeIcon, OfficeBuildingIcon, ColorSwatchIcon } from '@heroicons/react/
 import s1 from "./../assets/images/260x10001.jpg"
 import s2 from "./../assets/images/260x10002.jpg"
 import s3 from "./../assets/images/260x10003.jpg"
-
+import { motion } from 'framer-motion';
+const fadeIn = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6 }
+};
 const Services = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
@@ -33,7 +38,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-12 bg-zinc-950 text-gray-100">
+    <motion.section  className="py-12 bg-zinc-950 text-gray-100" {...fadeIn}>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
@@ -86,7 +91,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
