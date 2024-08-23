@@ -15,6 +15,9 @@ import Footer from './component/Footer';
 import Inquiry from './component/Inquiry';
 import Services from './component/Services';
 import Contact from './component/Contact';
+import Basic from './component/Packages/Basic';
+import Best from './component/Packages/Best';
+import Premium from './component/Packages/Premium';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -26,6 +29,9 @@ function App() {
       {/* <Route path="/inquiry" element={<Inquiry/>} /> */}
       <Route path="/about" element={<About/>} />
       <Route path="/packages" element={<Inquiry/>} />
+      <Route path="/basic" element={<Basic/>} />
+      <Route path="/best" element={<Best/>} />
+      <Route path="/premium" element={<Premium/>} />
       <Route path="/services" element={<Services/>} />
       
       <Route path="/contact" element={<Contact/>} />

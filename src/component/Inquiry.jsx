@@ -26,6 +26,9 @@ const Inquiry = () => {
     setDropdownOpen(false);
   };
 
+  const handleClick = () => {
+    window.scrollTo({ behavior: 'smooth', top:"0" });
+  };
   return (
 <>
     <div className="container mx-auto p-4">
@@ -45,7 +48,7 @@ const Inquiry = () => {
                     {descriptions[index]}
                   </p>
                   <button className="bg-zinc-950 text-white px-4 py-2 rounded hover:bg-red-500 transition duration-300">
-                   <Link to="/packages">
+                  <Link onClick={handleClick} to={`/${title.toLowerCase()}`}>
                    More
                    </Link>
                    
