@@ -5,9 +5,7 @@ import inq2 from "../assets/images/400X20002.jpg";
 import inq3 from "../assets/images/400X20003.jpg";
 import inq4 from "../assets/images/400X20004.jpg";
 import { motion } from 'framer-motion';
-import Premium from './Packages/Premium';
-import Basic from './Packages/Basic';
-import Best from './Packages/Best';
+
 import { Link } from 'react-router-dom';
 const Inquiry = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
