@@ -43,7 +43,7 @@ const About = () => {
           </motion.div>
           
           <motion.div {...fadeIn}>
-          <div className='text-left'>
+          <div className='text-justify'>
             <p className="text-lg mb-6">
               a-one's is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
             </p>
