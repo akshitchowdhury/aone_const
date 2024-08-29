@@ -42,7 +42,7 @@ const Inquiry = () => {
             {['BASIC', 'BEST', 'PREMIUM'].map((title, index) => (
               <div key={index} className="bg-white rounded-none shadow-md overflow-hidden">
                 <img 
-                  className="w-full h-48 object-cover" 
+                  className="w-full h-48 object-contain" 
                   src={images[index]} 
                   alt={`${title} home`} 
                 />
