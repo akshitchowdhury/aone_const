@@ -8,6 +8,7 @@ import Hero2 from './Hero2';
 import Inquiry from './Inquiry';
 import Services from './Services'
 import About from './About';
+import "./Hero.css"
 import { motion } from 'framer-motion';
 const Hero = () => {
   const fadeIn = {
@@ -20,7 +21,7 @@ const Hero = () => {
      <motion.div {...fadeIn}
      
       className="relative w-auto md:w-full h-[300px] md:h-[700px] lg:h-[700px] ">
-      <Carousel
+      {/* <Carousel
         autoPlay
         infiniteLoop
         showArrows={true}
@@ -42,7 +43,11 @@ const Hero = () => {
           
         </div>
 
-      </Carousel>
+      </Carousel> */}
+      <div className="hero">
+          {/* <img src={h1} alt="Slide 1" className="object-cover object-center w-full h-[300px] md:h-[700px] lg:h-[700px]" />
+           */}
+        </div> 
     </motion.div>
     
     <Hero2/>
