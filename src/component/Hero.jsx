@@ -19,7 +19,7 @@ const Hero = () => {
     <>  
      <motion.div {...fadeIn}
      
-      className="relative w-auto md:w-full h-[100px] md:h-[500px] lg:h-[500px] ">
+      className="relative w-auto md:w-full h-[300px] md:h-[700px] lg:h-[700px] ">
       <Carousel
         autoPlay
         infiniteLoop
@@ -30,21 +30,18 @@ const Hero = () => {
         className="h-full"
       >
         <div className="relative">
-          <img src={h1} alt="Slide 1" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
+          <img src={h1} alt="Slide 1" className="object-cover object-center w-full h-[300px] md:h-[700px] lg:h-[700px]" />
           
         </div> 
         <div className="relative">
-          <img src={h2} alt="Slide 2" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
+          <img src={h2} alt="Slide 2" className="object-cover object-center w-full h-[300px] md:h-[700px] lg:h-[700px]" />
           
         </div>
         <div className="relative">
-          <img src={h3} alt="Slide 3" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
+          <img src={h3} alt="Slide 3" className="object-cover object-center w-full h-[300px] md:h-[700px] lg:h-[700px]" />
           
         </div>
-        {/* <div className="relative">
-          <img src={h5} alt="Slide 5" className="object-cover object-center w-full h-[300px] md:h-[500px] lg:h-[500px]" />
-          
-        </div> */}
+
       </Carousel>
     </motion.div>
     

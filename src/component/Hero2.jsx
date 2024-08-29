@@ -6,9 +6,10 @@ import i3 from "../assets/images/100x10003.jpg";
 const Hero2 = () => {
   return (
     <>
-    <div className='w-[300px] md:w-[80%] md:mx-32  h-[1px] bg-gray-300'></div>
-    <section className="py-8 bg-white">
-      <div className="container mx-auto px-4">
+    <div className='w-[300px] md:w-[80%] md:mx-32  h-[1px]
+     bg-gray-300'></div>
+    {/* <section className="py-8 "> */}
+      <div className="container mx-auto md:px-12 p-7  py-[40px] h-auto md:p-4 md:py-0 md:absolute md:top-[550px]">
         <div className="flex flex-wrap -mx-4">
           {/* Card 1 */}
           <div className="w-full lg:w-1/3 md:w-1/2 px-4 mb-8 lg:mb-0">
@@ -72,7 +73,7 @@ const Hero2 = () => {
           </div>
         </div>
       </div>
-    </section>
+    {/* </section> */}
     <div className='w-[300px] md:w-[80%] md:mx-32  h-[1px] bg-gray-300'></div>
     </>
   );
