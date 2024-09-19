@@ -25,7 +25,7 @@ const Hero2 = () => {
                   DESIGN THE FUTURE TODAY
                 </h6>
                 <p className="">
-                  a-one’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
+                  Adhya’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
                 </p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Hero2 = () => {
                   WE BUILD HOMES WITH A PERSONAL TOUCH
                 </h6>
                 <p className="">
-                  a-one’s offers its customers everything they need to effortlessly plan and carry out building projects more quickly than ever before, including 3D drawings, floor plans, engineering support, and site inspection.
+                  Adhya’s offers its customers everything they need to effortlessly plan and carry out building projects more quickly than ever before, including 3D drawings, floor plans, engineering support, and site inspection.
                 </p>
               </div>
             </div>

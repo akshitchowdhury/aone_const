@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from "../assets/original/aoneLogo-removebg-preview.png"
+import logo from "../assets/original/logoReal.png"
 import NavTop from './NavTop';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Nav = () => {
     <nav className="bg-gradient-to-br from-gray-50 to-gray-100 p-4  ">
       <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
         <div className="font-bold flex flex-row items-center">
-            <img src={logo} className='w-[150px] h-[120px] py-2'/>
+            <img src={logo} className='w-[110px] h-[120px] py-2'/>
             
         </div>
         <div className="hidden md:flex space-x-24">

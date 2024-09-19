@@ -18,7 +18,7 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/original/aoneLogo-removebg-preview.png"
+import logo from "../assets/original/logoReal.png"
 const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ behavior: 'smooth', top:"0" });
@@ -43,11 +43,11 @@ const Footer = () => {
                   className="w-[150px] h-[140px]"
                 /> */}
                 <div className="font-bold flex flex-row items-center">
-            <img src={logo} className='w-[150px] h-[120px] py-2'/>
+            <img src={logo} className='w-[150px] h-[140px] py-2'/>
             
         </div>
                 <p>
-                a-one’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
+                Adhya’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
                 </p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
