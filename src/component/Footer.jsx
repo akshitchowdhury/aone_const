@@ -47,7 +47,7 @@ const Footer = () => {
             
         </div>
                 <p>
-                Adhya’s is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
+                Adhya Builders is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
                 </p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
@@ -94,7 +94,7 @@ const Footer = () => {
                         href="mailto:admissions@hillsideacademy.in"
                         className="text-white"
                       >
-                        enquiry@a-onebuilders.com
+                        enquiry@adhyabuilders.com
                       </a>
                     </li>
                   </ul>

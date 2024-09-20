@@ -23,7 +23,7 @@ const About = () => {
           className="text-3xl md:text-4xl font-bold text-center mb-8 text-red-500"
           {...fadeIn}
         >
-          About Adhya's
+          About Adhya Builders
         </motion.h2>
         
         <motion.div 
@@ -45,7 +45,7 @@ const About = () => {
           <motion.div {...fadeIn}>
           <div className='text-justify'>
             <p className="text-lg mb-6">
-              Adhya's is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
+              Adhya builderss is a leading provider of Infrastructure Services, Construction, Interior Designing and Property developments. We are committed to delivering for communities and leaving lasting legacies through our work.
             </p>
             <p className="text-lg mb-6">
               We offer our customers everything they need to effortlessly plan and carry out building projects more quickly than ever before, including 3D drawings, floor plans, engineering support, and site inspection.

@@ -134,7 +134,7 @@ const Contact = () => {
                 <div className="flex items-center">
                   <FaEnvelope className="text-gray-600 mr-2" />
                   <a href="mailto:enquiry@a-onebuilders.com" className="text-blue-500 hover:underline">
-                    enquiry@a-onebuilders.com
+                    enquiry@adhyabuilders.com
                   </a>
                 </div>
               </div>

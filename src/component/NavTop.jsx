@@ -13,7 +13,7 @@ const NavTop = () => {
             <li className="flex items-center text-gray-100 hover:text-zinc-950 transition ease-in-out duration-300">
               <FontAwesomeIcon icon={faEnvelope} className='px-2'/>
               <a href="mailto:chethanconstructions.in" className="">
-              enquiry@a-onebuilders.com
+              enquiry@adhyabuilders.com
               </a>
             </li>
             <li className="flex items-center mt-2 sm:mt-0 cursor-pointer text-gray-100 hover:text-zinc-950 transition ease-in-out duration-300">
