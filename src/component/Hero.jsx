@@ -20,7 +20,7 @@ const Hero = () => {
     <>  
      <motion.div {...fadeIn}
      
-      className="relative w-auto md:w-full h-[300px] md:h-[700px] lg:h-[700px] ">
+      className="relative w-auto md:w-full h-[200px] md:h-[700px] lg:h-[700px] ">
       {/* <Carousel
         autoPlay
         infiniteLoop

@@ -1,6 +1,23 @@
-.hero{
+.hero {
     background-image: url("../assets/images/homeBg.jpg");
     background-size: cover;
-    height: 700px;
-    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px; /* Use full viewport height for a better responsive effect */
+    background-attachment: fixed; /* This will make the background fixed on larger screens */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll; /* Allows scrolling for smaller screens */
+        height: 60vh; /* Adjust height to fit smaller screens better */
+    }
+}
+
+@media (max-width: 400px) {
+    .hero {
+        background-attachment: scroll;
+        height: 30vh; /* Further adjustment for extra small screens */
+    }
 }
