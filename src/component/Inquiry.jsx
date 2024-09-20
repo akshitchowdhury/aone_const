@@ -125,7 +125,7 @@ const Inquiry = () => {
             <h5 className="text-xl font-semibold text-center mb-4">For More Information</h5>
             <hr className="mb-4" />
             <div className="flex items-start">
-              <img src="images/64X6401.jpg" alt="Contact" className="w-16 h-16 rounded-full mr-4" />
+              {/* <img src="images/64X6401.jpg" alt="Contact" className="w-16 h-16 rounded-full mr-4" /> */}
               <div>
                 <div className="flex items-center mb-2">
                   <FaPhoneAlt className="text-gray-600 mr-2" />
