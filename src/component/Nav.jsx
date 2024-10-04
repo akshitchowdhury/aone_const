@@ -12,15 +12,20 @@ const Nav = () => {
 
   return (
     <>
-    <NavTop/>
-    <nav className="bg-gradient-to-br from-gray-50 to-gray-100 p-4  h-auto">
-      <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
-        <div className="font-bold flex flex-col items-center">
-            <img src={logo} className='w-[60px] h-[60px] '/>
-            <img src={logoTag} className='w-[110px] h-[20px] '/>
-            
-        </div>
-        <div className="hidden md:flex space-x-24">
+    {/* <NavTop/> */}
+    <nav className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 lg:h-[250px] flex items-center h-auto">
+  <div className="container mx-auto md:h-[80px] lg:h-[80px] flex flex-row justify-between  md:flex md:flex-col gap-y-16 md:justify-start md:items-center">
+    <div className="font-bold lg:flex md:flex md:flex-row lg:flex-row md:gap-20 md:-my-16 flex-col items-center">
+      <img
+        src={logo}
+        className='w-[100px] h-[100px] md:w-[150px] md:h-[150px] lg:w-auto lg:h-[100px]' // Adjust sizes for mobile
+      />
+      <img
+        src={logoTag}
+        className='w-[190px] h-[40px]  lg:w-[1037px] lg:h-[170px] md:w-[1037px] md:h-[170px]' // Adjust sizes for mobile
+      />
+    </div>
+        <div className="hidden md:flex space-x-12">
   <Link 
     to="/" 
     className="text-zinc-950 font-medium relative hover:text-red-600 group"
