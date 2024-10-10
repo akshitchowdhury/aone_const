@@ -135,10 +135,10 @@ const Inquiry = () => {
                   <FaPhoneAlt className="text-gray-600 mr-2" />
                   <span>+91-73490 59991</span>
                 </div>
-                <div className="flex items-center mb-2">
+                {/* <div className="flex items-center mb-2">
                   <FaPhoneAlt className="text-gray-600 mr-2" />
                   <span>+91-91640 23687</span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <FaEnvelope className="text-gray-600 mr-2" />
                   <a href="mailto:enquiry@a-onebuilders.com" className="text-blue-500 hover:underline">

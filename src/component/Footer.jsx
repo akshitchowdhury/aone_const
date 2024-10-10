@@ -205,7 +205,7 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-red-500 text-xl px-4"
                     />{" "}
-                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar, Bengaluru, Karnataka 560093
+                    No.4931, 2nd Phase, Vijayangara 4th Stage, Mysore 570032
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center md:text-left font-semibold mb-2">
@@ -216,8 +216,17 @@ const Footer = () => {
                       icon={faMobileAlt}
                       className="text-red-500 text-xl px-4"
                     />{" "}
-                    +91-9164023687
+                    +91-73490 59991
                   </li>
+                  <li className="flex items-start mb-4">
+                    <FontAwesomeIcon
+                      icon={faMobileAlt}
+                      className="text-red-500 text-xl px-4"
+                    />{" "}
+                    +91-81479 29991
+                  </li>
+
+                  
                   {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4">
                     <FontAwesomeIcon
