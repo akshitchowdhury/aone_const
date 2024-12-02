@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from "../assets/original/logoReal.png";
-import logoTag from "../assets/original/logoTag.png";
+import logoTag from "../assets/original/logoTag.jpeg";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);

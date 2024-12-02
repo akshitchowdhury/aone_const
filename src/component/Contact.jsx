@@ -133,7 +133,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center">
                   <FaEnvelope className="text-gray-600 mr-2" />
-                  <a href="mailto:enquiry@a-onebuilders.com" className="text-blue-500 hover:underline">
+                  <a href="mailto:enquiry@adhyabuilders.com" className="text-blue-500 hover:underline">
                     enquiry@adhyabuilders.com
                   </a>
                 </div>
